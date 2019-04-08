@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none; 
+	box-sizing: border-box;
+}
+nav{
+	font-size: 25px;
+	font-family: 'Merienda', cursive;
+	margin-left: 80%;
+	margin-top: 10px;
+}
+.inicio, .contato{
+	color: #113B4F;
+}
+.fotodesc{
+	border-radius: 50%;
+	width: 300px;
+	border:5px solid #113B4F;
+}
+.divimage{
+	margin-left: 20%;
+	margin-top: 100px;
+	width: 300px;
+}
+.divtext{
+	margin-left: 50%;
+	margin-top: -280px;
+	width:400px;
+}
+h1{
+	font-size: 40px;
+	font-family: 'Merienda', cursive;
+	color: #EB3B4F;
+}
+h2{
+	font-size: 25px;
+	font-family: 'Merienda', cursive;
+	color:#923B4F;
+}
+p{
+	font-size: 15px;
+	font-family: 'Merienda', cursive;
+	color: #113B4F;
+	text-align: justify;
+}
+.imgfooter{
+	width: 30px;
+	margin-left: 40%;
+	margin-top: 100px;
+}
+.imgfooter1{
+	width: 50px;
+}
+.imgfooter2{
+	width: 25px;
+}
