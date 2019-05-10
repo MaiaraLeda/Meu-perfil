@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.ContainerHeader{
+	width: 100%;
+	z-index: 5;
+}
+.section-header{
+	height: 18vh;
+}
+.div-logo{
+	width: 260px;
+}
+.logo-image{
+	width: 260px;
+}
+.ContainerNav{
+	width: 70%;
+	display: flex;
+	justify-content: flex-end;
+}
+.texto-nav{
+	font-family: 'Muli', sans-serif;
+	color: rgba(238,51,37,1);
+	font-size: 26px;
+	margin-left: 30px; 
+}
+.ContainerAbout{
+	width: 100%;
+	background-image: linear-gradient( to right, rgba(0,131,202,1), rgba(0,81,202,1) ); 
+	padding-top: 50px;
+}
+.ContainerAbout-sectionImagens{
+	width: 100%;
+	height: 200vh;
+}
+.ContainerAbout-titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: rgba(255,255,255,1);
+	font-weight: bold;
+	margin-left: 100px;
+}
+.ContainerAbout-divPrincipal{
+	display: flex;
+	justify-content: ;
+}
+.ContainerAbout-Imagens{
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	}
+.ContainerAbout-ImageDesc{
+	width: 350px;
+	margin: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.ContainerAbout-parag{
+	width: 470px;
+	color: rgba(255,255,255,1);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	text-align: justify;
+	margin-top: 55px;
+	position: relative;
+	left: 120px;
+	display: flex;
+	justify-content: flex-end;
+}
